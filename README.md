@@ -19,11 +19,9 @@ a speaker, and some audio files to trick this thing out. I have a bit of experie
 I followed the instructions and videos here: https://www.reddit.com/r/raspberry_pi/comments/sp8etb/radio_controlled_raspberry_pi_over_sbus/.
 I ended up getting some data on my pi4b but I would only get it once upon connection, but not a continuous stream. I figured since the radio receivers weren't exactly the same, that was probably my problem.
 
-At this point, I've spent way too much on this yard sale car, but I figured I might learn something and possible use the parts for a different project.
-I try one more time, and pick up a "2 Pack Wireless SNES Controller, LUXMO 2.4GHz USB Gamepad Classic Game Controller" from Walmart.
-Again, I didn't really know how I'm going to get data out of this but I felt like I was getting closer.
-I end up stumbling upon this post: https://forums.linuxmint.com/viewtopic.php?t=427214
-And the rest was a cake walk.
+At this point, I've spent way too much on this yard sale car, but I figured I might learn something and possible use the parts for a different project. I try one more time, and pick up a "2 Pack Wireless SNES Controller, LUXMO 2.4GHz USB Gamepad Classic Game Controller" from Walmart.
+Again, I didn't really know how I'm going to get data out of this but I felt like I was getting closer. I end up stumbling upon this post: https://forums.linuxmint.com/viewtopic.php?t=427214. The evtest was the missing piece of the puzzle. The xbox stuff listed on that thread is not relevant.
+And the rest was basically a cake walk.
 
 Parts needed:
 1. Raspberry Pi- I used the 4b : https://a.co/d/7QaD7z5
@@ -49,12 +47,13 @@ Stuff to install on the pi4b:
     - modules needed
         -node-red-contrib-ui-joystick     this will also allow you to control things via a Node-Red dashboard
         -node-red-node-pi-gpio            can be installed during Node-Red install
-3. amixer - to control volume : sudo apt-get install alsa-utils
+3. amixer - to control volume : sudo apt install alsa-utils
 4. mplayer - needed to play audio : sudo apt install mplayer
 5. evtest - needed to capture controller events  : sudo apt install evtest
    - when using evtest, you must identify your event# and either move the usb dongle to a different port to match the code (event0) or change the code to match your         event#.  The event number corresponds to the usb port(not literal port #) that the SNES controller dongle is plugged in to. If you move it or it doesn't              match up, the controller won't work.
 
 If stuff doesn't work:
+
   -check rasp-gpio pin numbers
 
   -check evtest event#
