@@ -35,10 +35,11 @@
         "id": "a089350ee861136b",
         "type": "group",
         "z": "11d3cc1235f0af2b",
-        "name": "",
+        "name": "DASHBOARD JOYSTICK CONTROLS",
         "style": {
             "stroke": "#ff0000",
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "ae21350df4d8d804",
@@ -53,10 +54,11 @@
         "id": "16f6d85c3cb65cc5",
         "type": "group",
         "z": "11d3cc1235f0af2b",
-        "name": "",
+        "name": "MOTOR CONTROLS",
         "style": {
             "stroke": "#ff0000",
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "bc08c6298927fdf6",
@@ -71,13 +73,13 @@
         "id": "da5ed90fb4103544",
         "type": "group",
         "z": "9e358cedb3502371",
-        "name": "",
+        "name": "AUDIO DASHBOARD BUTTONS",
         "style": {
-            "stroke": "#ffffff",
-            "label": true
+            "stroke": "#ff0000",
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
-            "87ef02e816c5b563",
             "6613164a96c4b9a2",
             "422d9ba7c39cd9b3",
             "d0c26542c01e4a50",
@@ -214,59 +216,14 @@
         "h": 1129.5
     },
     {
-        "id": "2c1f3c7514e58922",
-        "type": "group",
-        "z": "9e358cedb3502371",
-        "name": "",
-        "style": {
-            "stroke": "#ffffff",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "d9c82c4c7ebc3394",
-            "ddadddec2324b5b5",
-            "ab1620c9bd47c7e0",
-            "ab753d57be2dc0f7",
-            "43cdc3a0caa8c53c",
-            "fe5971436a1658d7",
-            "afd70925abce5561",
-            "8198a5f28813ac1a",
-            "60830fd5e4029bc5",
-            "7248c4ded48008fb",
-            "5fba4e0058313c7b",
-            "db7f5929c3ac9615",
-            "593ed84fe9d9c6c7",
-            "ce5fa9d7adade95e",
-            "65717ae078bc7cd9",
-            "ed6143dd65b6f0d9",
-            "c3a99e54720bd6cc",
-            "bbaa88bce174122d",
-            "44c65bbf0309e0da",
-            "6d6235c6da0a2cbd",
-            "f560044eefb685ac",
-            "873f1b5f4d13e2bc",
-            "afd450403dcea2be",
-            "af1c08c6ad57a274"
-        ],
-        "x": 14,
-        "y": 3131.5,
-        "w": 1672,
-        "h": 597
-    },
-    {
         "id": "dd6fcf20887a0946",
         "type": "group",
         "z": "9e358cedb3502371",
-        "name": "",
+        "name": "AUDIO SELECTION/VARIABLE INDICATORS ON DASHBOARD",
         "style": {
-            "stroke": "#ffffff",
-            "fill": "none",
-            "fill-opacity": "1",
+            "stroke": "#ff0000",
             "label": true,
-            "color": "#a4a4a4"
+            "color": "#000000"
         },
         "nodes": [
             "a81e32d9c2757518",
@@ -314,7 +271,8 @@
             "7650e5b0bc02ab5a",
             "3d32c41a96847969",
             "a07f4381b0df8aaa",
-            "444c8fd1634d523f"
+            "444c8fd1634d523f",
+            "9e0a824e7c41e120"
         ],
         "x": 14,
         "y": 1959,
@@ -325,10 +283,11 @@
         "id": "808f7cd80ee40008",
         "type": "group",
         "z": "9e358cedb3502371",
-        "name": "",
+        "name": "CONTROLLER AUDIO PLAY BUTTON",
         "style": {
-            "stroke": "#ffffff",
-            "label": true
+            "stroke": "#ff0000",
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "794360827303d8e5",
@@ -361,9 +320,84 @@
         "h": 762
     },
     {
+        "id": "1462c619fea152e1",
+        "type": "group",
+        "z": "f3235174a9f93161",
+        "name": "ORIGINAL CAR CONTROLLER POWER - TO ACTIVATE LIGHTS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "acefecee9e3e88b9"
+        ],
+        "x": 148,
+        "y": 173,
+        "w": 824,
+        "h": 294
+    },
+    {
+        "id": "eee4d8b1b9e5b309",
+        "type": "group",
+        "z": "e72346d8a22fcc67",
+        "name": "SNES CONTROLLER BUTTON MAPPING",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9d6bcee681ab9cb9"
+        ],
+        "x": 28,
+        "y": 73,
+        "w": 1114,
+        "h": 914
+    },
+    {
+        "id": "96f2e21f286ba4d0",
+        "type": "group",
+        "z": "9e358cedb3502371",
+        "name": "VOLUME CONTROL",
+        "style": {
+            "label": true,
+            "stroke": "#ff0000",
+            "color": "#000000"
+        },
+        "nodes": [
+            "d9c82c4c7ebc3394",
+            "ddadddec2324b5b5",
+            "ab1620c9bd47c7e0",
+            "ab753d57be2dc0f7",
+            "43cdc3a0caa8c53c",
+            "fe5971436a1658d7",
+            "afd70925abce5561",
+            "8198a5f28813ac1a",
+            "60830fd5e4029bc5",
+            "7248c4ded48008fb",
+            "5fba4e0058313c7b",
+            "db7f5929c3ac9615",
+            "593ed84fe9d9c6c7",
+            "ce5fa9d7adade95e",
+            "65717ae078bc7cd9",
+            "ed6143dd65b6f0d9",
+            "c3a99e54720bd6cc",
+            "bbaa88bce174122d",
+            "44c65bbf0309e0da",
+            "6d6235c6da0a2cbd",
+            "f560044eefb685ac",
+            "873f1b5f4d13e2bc",
+            "afd450403dcea2be",
+            "af1c08c6ad57a274",
+            "8464bf7346761b65"
+        ],
+        "x": 134,
+        "y": 3131.5,
+        "w": 1672,
+        "h": 597
+    },
+    {
         "id": "9d6bcee681ab9cb9",
         "type": "group",
         "z": "e72346d8a22fcc67",
+        "g": "eee4d8b1b9e5b309",
         "name": "",
         "style": {
             "stroke": "#ffffff",
@@ -387,7 +421,6 @@
             "2586ef9a02f23fcc",
             "057a78307b2db597",
             "64ad7cf9047a9406",
-            "c58936954d7cf222",
             "f6feff0340124061",
             "c89435bf17d38f4c",
             "5b4a4afce638f6d6",
@@ -402,7 +435,9 @@
             "de70114bb6d396ce",
             "696e4adcad8910ee",
             "e7bd9d05c5f65aae",
-            "daeffa8f0eceed69"
+            "daeffa8f0eceed69",
+            "4282e9115e9e78ac",
+            "50658cec8884ed82"
         ],
         "x": 54,
         "y": 99,
@@ -413,6 +448,7 @@
         "id": "acefecee9e3e88b9",
         "type": "group",
         "z": "f3235174a9f93161",
+        "g": "1462c619fea152e1",
         "name": "",
         "style": {
             "stroke": "#ffffff",
@@ -424,8 +460,8 @@
             "d702bb93e3b07ad3",
             "8935f38c16b3bace",
             "143aa098dc0ac40f",
-            "6479f7d660fb039f",
-            "83bbcb3db552fa4f"
+            "83bbcb3db552fa4f",
+            "6479f7d660fb039f"
         ],
         "x": 174,
         "y": 199,
@@ -492,10 +528,11 @@
         "type": "group",
         "z": "11d3cc1235f0af2b",
         "g": "16f6d85c3cb65cc5",
-        "name": "",
+        "name": "FORWARD/REVERSE",
         "style": {
-            "stroke": "#ffffff",
-            "label": true
+            "stroke": "#ff0000",
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "67483f6af5d3d0f8",
@@ -522,10 +559,11 @@
         "type": "group",
         "z": "11d3cc1235f0af2b",
         "g": "16f6d85c3cb65cc5",
-        "name": "",
+        "name": "LEFT/RIGHT",
         "style": {
-            "stroke": "#ffffff",
-            "label": true
+            "stroke": "#ff0000",
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "34d98a5169020263",
@@ -537,13 +575,51 @@
             "993b7894f4f601b5",
             "e33684427148457d",
             "f0617d9ac69fe58a",
-            "d068ef7549370cea",
-            "359d854925d7534f",
-            "e6a0ee32bc670be6"
+            "d068ef7549370cea"
         ],
         "x": 94,
         "y": 799,
         "w": 872,
+        "h": 242
+    },
+    {
+        "id": "4aa9715125abdee5",
+        "type": "group",
+        "z": "f3235174a9f93161",
+        "name": "ORIGINAL CAR CONTROLLER POWER - TO ACTIVATE PROPS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "40cbace25a57a90e"
+        ],
+        "x": 158,
+        "y": 553,
+        "w": 814,
+        "h": 294
+    },
+    {
+        "id": "40cbace25a57a90e",
+        "type": "group",
+        "z": "f3235174a9f93161",
+        "g": "4aa9715125abdee5",
+        "name": "",
+        "style": {
+            "stroke": "#ffffff",
+            "label": true
+        },
+        "nodes": [
+            "f03057f6b24a0e7c",
+            "cc31b38ea589db9a",
+            "e8791784cfd5188c",
+            "04744b71a4e0ac73",
+            "b968831fe79e407d",
+            "5033964b5826f580",
+            "c5212032e6265216"
+        ],
+        "x": 184,
+        "y": 579,
+        "w": 762,
         "h": 242
     },
     {
@@ -664,8 +740,8 @@
         "id": "c3a99e54720bd6cc",
         "type": "junction",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
-        "x": 620,
+        "g": "96f2e21f286ba4d0",
+        "x": 740,
         "y": 3440,
         "wires": [
             [
@@ -683,6 +759,19 @@
         "wires": [
             [
                 "20bdd5112c3b4efd"
+            ]
+        ]
+    },
+    {
+        "id": "04744b71a4e0ac73",
+        "type": "junction",
+        "z": "f3235174a9f93161",
+        "g": "40cbace25a57a90e",
+        "x": 690,
+        "y": 720,
+        "wires": [
+            [
+                "cc31b38ea589db9a"
             ]
         ]
     },
@@ -837,6 +926,11 @@
         "width": "12",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "f61ee72d242bb854",
+        "type": "global-config",
+        "env": []
     },
     {
         "id": "e5e306e502454a2f",
@@ -1566,8 +1660,7 @@
         "y": 880,
         "wires": [
             [
-                "d068ef7549370cea",
-                "359d854925d7534f"
+                "d068ef7549370cea"
             ]
         ]
     },
@@ -1623,8 +1716,7 @@
         "y": 1000,
         "wires": [
             [
-                "252f2608351e9771",
-                "e6a0ee32bc670be6"
+                "252f2608351e9771"
             ]
         ]
     },
@@ -1728,60 +1820,6 @@
         "wires": []
     },
     {
-        "id": "359d854925d7534f",
-        "type": "delay",
-        "z": "11d3cc1235f0af2b",
-        "d": true,
-        "g": "1e79b586db74a490",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "300",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 530,
-        "y": 880,
-        "wires": [
-            [
-                "b922f8f9ae9f7cbd"
-            ]
-        ]
-    },
-    {
-        "id": "e6a0ee32bc670be6",
-        "type": "delay",
-        "z": "11d3cc1235f0af2b",
-        "d": true,
-        "g": "1e79b586db74a490",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "300",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 530,
-        "y": 1000,
-        "wires": [
-            [
-                "754c7d476f3b5ae9"
-            ]
-        ]
-    },
-    {
         "id": "271affcb08fe14f0",
         "type": "debug",
         "z": "11d3cc1235f0af2b",
@@ -1833,7 +1871,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/scream-1.mp3",
+        "command": "mplayer .node-red/audio/scream-1.mp3",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -1884,7 +1922,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/move-bitch.mp3",
+        "command": "mplayer .node-red/audio/move-bitch.mp3",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -1935,7 +1973,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/laugh-1.wav",
+        "command": "mplayer .node-red/audio/laugh-1.wav",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -1986,7 +2024,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/laugh-3.wav",
+        "command": "mplayer .node-red/audio/laugh-3.wav",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2037,7 +2075,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/work.mp3",
+        "command": "mplayer .node-red/audio/work.mp3",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2088,7 +2126,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/laugh-4.wav",
+        "command": "mplayer .node-red/audio/laugh-4.wav",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2139,7 +2177,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/most.mp3",
+        "command": "mplayer .node-red/audio/most.mp3",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2190,7 +2228,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/my-pretty.wav",
+        "command": "mplayer .node-red/audio/my-pretty.wav",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2241,7 +2279,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/growl-2.wav",
+        "command": "mplayer .node-red/audio/growl-2.wav",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2292,7 +2330,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/growl-1.wav",
+        "command": "mplayer .node-red/audio/growl-1.wav",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2343,7 +2381,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/price.mp3",
+        "command": "mplayer .node-red/audio/price.mp3",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2394,7 +2432,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/johnny.mp3",
+        "command": "mplayer .node-red/audio/johnny.mp3",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2445,7 +2483,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/laugh-2.wav",
+        "command": "mplayer .node-red/audio/laugh-2.wav",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2496,7 +2534,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/laugh-5.mp3",
+        "command": "mplayer .node-red/audio/laugh-5.mp3",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2577,7 +2615,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/demon_girls.wav",
+        "command": "mplayer .node-red/audio/demon_girls.wav",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2598,7 +2636,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/theme.mp3",
+        "command": "mplayer .node-red/audio/theme.mp3",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2649,7 +2687,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/horn.wav",
+        "command": "mplayer .node-red/audio/horn.wav",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -2669,7 +2707,7 @@
         "id": "d9c82c4c7ebc3394",
         "type": "exec",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "command": "sudo amixer set PCM 100%",
         "addpay": "",
         "append": "",
@@ -2678,7 +2716,7 @@
         "winHide": true,
         "oldrc": false,
         "name": "",
-        "x": 1540,
+        "x": 1660,
         "y": 3180,
         "wires": [
             [],
@@ -2690,7 +2728,7 @@
         "id": "ddadddec2324b5b5",
         "type": "exec",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "command": "sudo amixer set PCM 95%",
         "addpay": "",
         "append": "",
@@ -2699,7 +2737,7 @@
         "winHide": true,
         "oldrc": false,
         "name": "",
-        "x": 1540,
+        "x": 1660,
         "y": 3280,
         "wires": [
             [],
@@ -2711,7 +2749,7 @@
         "id": "ab1620c9bd47c7e0",
         "type": "exec",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "command": "sudo amixer set PCM 90%",
         "addpay": "",
         "append": "",
@@ -2720,7 +2758,7 @@
         "winHide": true,
         "oldrc": false,
         "name": "",
-        "x": 1540,
+        "x": 1660,
         "y": 3380,
         "wires": [
             [],
@@ -2732,7 +2770,7 @@
         "id": "ab753d57be2dc0f7",
         "type": "exec",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "command": "sudo amixer set PCM 85%",
         "addpay": "",
         "append": "",
@@ -2741,7 +2779,7 @@
         "winHide": true,
         "oldrc": false,
         "name": "",
-        "x": 1540,
+        "x": 1660,
         "y": 3500,
         "wires": [
             [],
@@ -2753,7 +2791,7 @@
         "id": "43cdc3a0caa8c53c",
         "type": "exec",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "command": "sudo amixer set PCM 80%",
         "addpay": "",
         "append": "",
@@ -2762,7 +2800,7 @@
         "winHide": true,
         "oldrc": false,
         "name": "",
-        "x": 1540,
+        "x": 1660,
         "y": 3580,
         "wires": [
             [],
@@ -2774,7 +2812,7 @@
         "id": "fe5971436a1658d7",
         "type": "exec",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "command": "sudo amixer set PCM 0%",
         "addpay": "",
         "append": "",
@@ -2783,7 +2821,7 @@
         "winHide": true,
         "oldrc": false,
         "name": "",
-        "x": 1530,
+        "x": 1650,
         "y": 3680,
         "wires": [
             [],
@@ -2795,7 +2833,7 @@
         "id": "afd70925abce5561",
         "type": "switch",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -2834,7 +2872,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 6,
-        "x": 850,
+        "x": 970,
         "y": 3440,
         "wires": [
             [
@@ -2867,7 +2905,7 @@
         "id": "60830fd5e4029bc5",
         "type": "function",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "volume up",
         "func": "msg.payload = msg.payload + 1;\n    return msg;",
         "outputs": 1,
@@ -2876,7 +2914,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
+        "x": 570,
         "y": 3360,
         "wires": [
             [
@@ -2888,7 +2926,7 @@
         "id": "8198a5f28813ac1a",
         "type": "function",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "volume down",
         "func": "msg.payload = msg.payload - 1;\n    return msg;",
         "outputs": 1,
@@ -2897,7 +2935,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
+        "x": 570,
         "y": 3400,
         "wires": [
             [
@@ -2909,12 +2947,12 @@
         "id": "7248c4ded48008fb",
         "type": "link in",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "link in 20",
         "links": [
             "e7bd9d05c5f65aae"
         ],
-        "x": 55,
+        "x": 175,
         "y": 3360,
         "wires": [
             [
@@ -2926,12 +2964,12 @@
         "id": "5fba4e0058313c7b",
         "type": "link in",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "link in 21",
         "links": [
             "696e4adcad8910ee"
         ],
-        "x": 55,
+        "x": 175,
         "y": 3400,
         "wires": [
             [
@@ -2943,7 +2981,7 @@
         "id": "db7f5929c3ac9615",
         "type": "change",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "rules": [
             {
@@ -2959,7 +2997,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 220,
+        "x": 340,
         "y": 3360,
         "wires": [
             [
@@ -2971,7 +3009,7 @@
         "id": "593ed84fe9d9c6c7",
         "type": "change",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "rules": [
             {
@@ -2987,7 +3025,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 220,
+        "x": 340,
         "y": 3400,
         "wires": [
             [
@@ -5228,26 +5266,6 @@
         ]
     },
     {
-        "id": "87ef02e816c5b563",
-        "type": "function",
-        "z": "9e358cedb3502371",
-        "d": true,
-        "g": "da5ed90fb4103544",
-        "name": "function 2",
-        "func": "let song = msg.payload;\nif (song = 2) {\n    msg.colour = \"red\";\n} else {\n    msg.colour = \"transparent\";\n}\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 180,
-        "y": 920,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "6613164a96c4b9a2",
         "type": "change",
         "z": "9e358cedb3502371",
@@ -6567,7 +6585,7 @@
         "id": "ce5fa9d7adade95e",
         "type": "ui_slider",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "label": "VOLUME",
         "tooltip": "",
@@ -6583,7 +6601,7 @@
         "max": "5",
         "step": 1,
         "className": "",
-        "x": 720,
+        "x": 840,
         "y": 3440,
         "wires": [
             [
@@ -6595,7 +6613,7 @@
         "id": "65717ae078bc7cd9",
         "type": "ui_button",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "group": "bfac80f4adb666c8",
         "order": 6,
@@ -6612,7 +6630,7 @@
         "payloadType": "num",
         "topic": "topic",
         "topicType": "msg",
-        "x": 470,
+        "x": 590,
         "y": 3480,
         "wires": [
             [
@@ -6624,7 +6642,7 @@
         "id": "ed6143dd65b6f0d9",
         "type": "ui_button",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "group": "bfac80f4adb666c8",
         "order": 8,
@@ -6641,7 +6659,7 @@
         "payloadType": "num",
         "topic": "topic",
         "topicType": "msg",
-        "x": 460,
+        "x": 580,
         "y": 3440,
         "wires": [
             [
@@ -6684,7 +6702,7 @@
         "type": "exec",
         "z": "9e358cedb3502371",
         "g": "da5ed90fb4103544",
-        "command": "mplayer .node-red-git/audio/air_raid.wav",
+        "command": "mplayer .node-red/audio/air_raid.wav",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -6871,7 +6889,7 @@
         "id": "bbaa88bce174122d",
         "type": "inject",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "props": [
             {
@@ -6885,7 +6903,7 @@
         "topic": "",
         "payload": "3",
         "payloadType": "str",
-        "x": 730,
+        "x": 850,
         "y": 3400,
         "wires": [
             [
@@ -6897,7 +6915,7 @@
         "id": "44c65bbf0309e0da",
         "type": "change",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "rules": [
             {
@@ -6913,7 +6931,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1510,
+        "x": 1630,
         "y": 3280,
         "wires": [
             []
@@ -6923,7 +6941,7 @@
         "id": "6d6235c6da0a2cbd",
         "type": "change",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "rules": [
             {
@@ -6939,7 +6957,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1510,
+        "x": 1630,
         "y": 3180,
         "wires": [
             []
@@ -6949,7 +6967,7 @@
         "id": "f560044eefb685ac",
         "type": "change",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "rules": [
             {
@@ -6965,7 +6983,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1510,
+        "x": 1630,
         "y": 3380,
         "wires": [
             []
@@ -6975,7 +6993,7 @@
         "id": "873f1b5f4d13e2bc",
         "type": "change",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "rules": [
             {
@@ -6991,7 +7009,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1510,
+        "x": 1630,
         "y": 3500,
         "wires": [
             []
@@ -7001,7 +7019,7 @@
         "id": "afd450403dcea2be",
         "type": "change",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "rules": [
             {
@@ -7017,7 +7035,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1510,
+        "x": 1630,
         "y": 3580,
         "wires": [
             []
@@ -7027,7 +7045,7 @@
         "id": "af1c08c6ad57a274",
         "type": "change",
         "z": "9e358cedb3502371",
-        "g": "2c1f3c7514e58922",
+        "g": "96f2e21f286ba4d0",
         "name": "",
         "rules": [
             {
@@ -7043,11 +7061,33 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1510,
+        "x": 1630,
         "y": 3680,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "8464bf7346761b65",
+        "type": "comment",
+        "z": "9e358cedb3502371",
+        "g": "96f2e21f286ba4d0",
+        "name": "DEFAULT VOLUME LEVEL 3 is 90%",
+        "info": "",
+        "x": 940,
+        "y": 3340,
+        "wires": []
+    },
+    {
+        "id": "9e0a824e7c41e120",
+        "type": "comment",
+        "z": "9e358cedb3502371",
+        "g": "dd6fcf20887a0946",
+        "name": "HORN HAS ITS OWN CONTROLLER BUTTON SO IT'S LEFT OUT (DISABLED) OF THE AUDIO QUEUE---->",
+        "info": "",
+        "x": 850,
+        "y": 2000,
+        "wires": []
     },
     {
         "id": "2f949789c3c1c8ca",
@@ -7496,17 +7536,6 @@
         "wires": []
     },
     {
-        "id": "c58936954d7cf222",
-        "type": "comment",
-        "z": "e72346d8a22fcc67",
-        "g": "9d6bcee681ab9cb9",
-        "name": "",
-        "info": "Input driver version is 1.0.1\nInput device ID: bus 0x3 vendor 0x79 product 0x126 version 0x111\nInput device name: \"Controller\"\nSupported events:\n  Event type 0 (EV_SYN)\n  Event type 1 (EV_KEY)\n    Event code 304 (BTN_SOUTH)\n    Event code 305 (BTN_EAST)\n    Event code 306 (BTN_C)\n    Event code 307 (BTN_NORTH)\n    Event code 308 (BTN_WEST)\n    Event code 309 (BTN_Z)\n    Event code 310 (BTN_TL)\n    Event code 311 (BTN_TR)\n    Event code 312 (BTN_TL2)\n    Event code 313 (BTN_TR2)\n    Event code 314 (BTN_SELECT)\n    Event code 315 (BTN_START)\n    Event code 316 (BTN_MODE)\n  Event type 3 (EV_ABS)\n    Event code 0 (ABS_X)\n      Value    128\n      Min        0\n      Max      255\n      Flat      15\n    Event code 1 (ABS_Y)\n      Value    128\n      Min        0\n      Max      255\n      Flat      15\n    Event code 2 (ABS_Z)\n      Value    128\n      Min        0\n      Max      255\n      Flat      15\n    Event code 5 (ABS_RZ)\n      Value    128\n      Min        0\n      Max      255\n      Flat    ...",
-        "x": 740,
-        "y": 140,
-        "wires": []
-    },
-    {
         "id": "f6feff0340124061",
         "type": "link out",
         "z": "e72346d8a22fcc67",
@@ -7625,7 +7654,9 @@
         "g": "9d6bcee681ab9cb9",
         "name": "b",
         "mode": "link",
-        "links": [],
+        "links": [
+            "f03057f6b24a0e7c"
+        ],
         "x": 965,
         "y": 500,
         "wires": []
@@ -7716,6 +7747,28 @@
         ],
         "x": 965,
         "y": 320,
+        "wires": []
+    },
+    {
+        "id": "4282e9115e9e78ac",
+        "type": "comment",
+        "z": "e72346d8a22fcc67",
+        "g": "9d6bcee681ab9cb9",
+        "name": "ADJUST EVTEST EVENT# ON INJECT NODE IF NEEDED",
+        "info": "",
+        "x": 300,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "50658cec8884ed82",
+        "type": "comment",
+        "z": "e72346d8a22fcc67",
+        "g": "9d6bcee681ab9cb9",
+        "name": "Use 'evtest' command to find you event# - which corresponds to usb port",
+        "info": "",
+        "x": 330,
+        "y": 280,
         "wires": []
     },
     {
@@ -7879,13 +7932,164 @@
         ]
     },
     {
-        "id": "f61ee72d242bb854",
-        "type": "global-config",
-        "env": [],
-        "modules": {
-            "node-red-dashboard": "3.6.6",
-            "node-red-contrib-ui-joystick": "1.0.1",
-            "node-red-node-pi-gpio": "2.0.6"
-        }
+        "id": "f03057f6b24a0e7c",
+        "type": "link in",
+        "z": "f3235174a9f93161",
+        "g": "40cbace25a57a90e",
+        "name": "link in 1",
+        "links": [
+            "c1c252a9408c8dc3"
+        ],
+        "x": 335,
+        "y": 620,
+        "wires": [
+            [
+                "e8791784cfd5188c"
+            ]
+        ]
+    },
+    {
+        "id": "cc31b38ea589db9a",
+        "type": "rpi-gpio out",
+        "z": "f3235174a9f93161",
+        "d": true,
+        "g": "40cbace25a57a90e",
+        "name": "prop power",
+        "pin": "25",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 850,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "e8791784cfd5188c",
+        "type": "change",
+        "z": "f3235174a9f93161",
+        "g": "40cbace25a57a90e",
+        "name": "ON",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 660,
+        "wires": [
+            [
+                "04744b71a4e0ac73",
+                "b968831fe79e407d"
+            ]
+        ]
+    },
+    {
+        "id": "b968831fe79e407d",
+        "type": "delay",
+        "z": "f3235174a9f93161",
+        "g": "40cbace25a57a90e",
+        "name": "ON DELAY",
+        "pauseType": "delay",
+        "timeout": "4",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 500,
+        "y": 720,
+        "wires": [
+            [
+                "c5212032e6265216"
+            ]
+        ]
+    },
+    {
+        "id": "5033964b5826f580",
+        "type": "inject",
+        "z": "f3235174a9f93161",
+        "g": "40cbace25a57a90e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 660,
+        "wires": [
+            [
+                "e8791784cfd5188c"
+            ]
+        ]
+    },
+    {
+        "id": "c5212032e6265216",
+        "type": "change",
+        "z": "f3235174a9f93161",
+        "g": "40cbace25a57a90e",
+        "name": "OFF",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 780,
+        "wires": [
+            [
+                "04744b71a4e0ac73"
+            ]
+        ]
     }
 ]
