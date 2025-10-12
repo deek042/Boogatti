@@ -63,6 +63,11 @@ If stuff doesn't work:
   -if motor operation doesn't match button pushed, reverse motor lead wires
 
   -check audio folder location. should be in .node-red/
-  
+
+  wiring pics:
+
+  https://drive.google.com/file/d/1dMyVkAzstIFU-WFvzVmFTmKbLRs9nuQs/view?usp=drive_link
+
+  https://drive.google.com/file/d/1L3-065Ip2qIkVzgB_pMS6Q5aZIJ-u1QE/view?usp=drive_link
 
 
