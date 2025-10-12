@@ -1,4 +1,4 @@
-# Boogatti
+# Boogatti - Remote Control Power Wheels Car - Halloween prop
 Let me preface this with saying that I am a tinkerer electrician, not a pro coder or electrical engineer.
 
 This is my first time writing a README/tutorial, so forgive me if I don't follow any norms.
