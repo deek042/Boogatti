@@ -28,9 +28,13 @@ And the rest was a cake walk.
 Parts needed:
 1. Raspberry Pi- I used the 4b : https://a.co/d/7QaD7z5
 2. Relays : I ended up using 3 of these relay pairs : https://a.co/d/6uRmdw6
+
   1 pair for steering - 2 relays that reverse 12vdc polarity to switch between left and right - common terminals go to motor leads
+
   1 pair for drive - 2 relays that reverse 12vdc polarity to switch between forward and reverse - common terminals go to motor leads
+
   1 pair for lights and optional props
+
 3. Dewalt battery adapter : https://a.co/d/8VYDHKD
 4. 20v to 12v power adapter with fuse : https://a.co/d/guRQAic
 5. 12v to 5v power adapter for pi power : https://a.co/d/e88wEeP
@@ -55,6 +59,7 @@ If stuff doesn't work:
   -check evtest event#
   -check contoller button mapping
   -if motor operation doesn't match button pushed, reverse motor lead wires
+  -check audio folder location. should be in .node-red/
   
 
 
