@@ -55,10 +55,14 @@ Stuff to install on the pi4b:
    - when using evtest, you must identify your event# and either move the usb dongle to a different port to match the code (event0) or change the code to match your         event#.  The event number corresponds to the usb port(not literal port #) that the SNES controller dongle is plugged in to. If you move it or it doesn't              match up, the controller won't work.
 
 If stuff doesn't work:
-  -check rasp pin numbers
+  -check rasp-gpio pin numbers
+
   -check evtest event#
+
   -check contoller button mapping
+
   -if motor operation doesn't match button pushed, reverse motor lead wires
+
   -check audio folder location. should be in .node-red/
   
 
